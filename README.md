@@ -1,5 +1,5 @@
 # Block-Adblocker-blocker
-A userscript to block Anti-Adblockers on several (especially news) websites. It works only in Firefox or other browsers which support 'beforescriptexecute' HTML5 standard event (Google Chrome doesn't).  
+A userscript to block 'Anti-Adblockers' on several Indian (especially news) websites that recently started blocking content for ad-block users, though they don't know a thing about non-intrusive advertising from any stretch of imagination. This script is just one of the possible solutions for the users who don't want to deal with the technical details. It currently works only in Firefox, or other browsers that support the HTML5 standard 'beforescriptexecute' event (Google Chrome doesn't). 
 
 ##Currently supported websites 
 - [Times of India](timesofindia.indiatimes.com)
