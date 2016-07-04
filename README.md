@@ -7,6 +7,6 @@ A userscript to block 'Anti-Adblockers' on several Indian (especially news) webs
 - [NDTV](ndtv.com) 
 
 ##How to use (Only for Firefox)
-- If you don't have already, install the popular Firefox extension [GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/), and restart browser. 
-- Install the script by clicking at this link : [Block-Adblocker-blocker](https://github.com/piyushsoni/Block-Adblocker-blocker/raw/master/Block-Adblocker-blocker.user.js)
+- If you don't have it already, install the popular Firefox extension [GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/), and restart browser. 
+- Install the script by clicking the hositng website's Install button or this link : [Block-Adblocker-blocker](https://github.com/piyushsoni/Block-Adblocker-blocker/raw/master/Block-Adblocker-blocker.user.js)
 - Without a browser restart needed, you should be able to read the news on all of the currently supported websites (a page refresh might be required if already open)
