@@ -5,6 +5,7 @@ A userscript to block 'Anti-Adblockers' on several Indian (especially news) webs
 - [Times of India](timesofindia.indiatimes.com)
 - [Hindustan Times](hindustantimes.com)
 - [NDTV](ndtv.com) 
+- [anandabazar](anandabazar.com) 
 
 ##How to use (Only for Firefox)
 - If you don't have it already, install the popular Firefox extension [GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/), and restart browser. 
