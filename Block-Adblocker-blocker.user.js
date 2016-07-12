@@ -60,15 +60,9 @@ function scriptListener(e)
     }
 }
 
-function errorListener(e, url)
-{
-    console.log("Error occurred: " + e + " url : " + url);
-}
-
 if(domain in mapPagesBlockerBlockers)
 {
 	arrPageBlockers = mapPagesBlockerBlockers[domain][0];
 	countToCheck = mapPagesBlockerBlockers[domain][1];
 	window.addEventListener('beforescriptexecute', scriptListener, true);
-    window.addEventListener('onerror', errorListener, true);
 }
