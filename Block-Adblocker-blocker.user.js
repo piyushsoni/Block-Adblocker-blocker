@@ -7,7 +7,7 @@
 // @include     http://*.ndtv.com/*
 // @include     http://*.anandabazar.com/*
 // @run-at      document-start
-// @version     1.20
+// @version     1.30
 // @grant       none
 // @author      Piyush Soni (irrationalapps+blockerblocker@gmail.com)
 // @license     GNU LGPL v3 (https://www.gnu.org/licenses/lgpl-3.0.html)
@@ -23,7 +23,7 @@ var arrPageBlockers;
 
 //Add new blocker list here
 ///mapPagesBlockerBlockers['<domain>'] = ['<external script source match>','<inline script source match>', <stop any 1 r more(count)>]
-mapPagesBlockerBlockers['indiatimes.com'] = [['detector', 'blocked.cms'], 1];
+mapPagesBlockerBlockers['indiatimes.com'] = [['detector', 'blocked.cms', 'opacity'], 1];
 mapPagesBlockerBlockers['hindustantimes.com'] = [['BlockerScript', 'checkAdBlocker'], 2];
 mapPagesBlockerBlockers['ndtv.com'] = [['canRunAds'], 1];
 mapPagesBlockerBlockers['anandabazar.com'] = [['custom.js', 'checkAdBlock'], 2];
@@ -60,9 +60,15 @@ function scriptListener(e)
     }
 }
 
+function errorListener(e, url)
+{
+    console.log("Error occurred: " + e + " url : " + url);
+}
+
 if(domain in mapPagesBlockerBlockers)
 {
 	arrPageBlockers = mapPagesBlockerBlockers[domain][0];
 	countToCheck = mapPagesBlockerBlockers[domain][1];
 	window.addEventListener('beforescriptexecute', scriptListener, true);
+    window.addEventListener('onerror', errorListener, true);
 }
