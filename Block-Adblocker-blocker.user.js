@@ -6,8 +6,9 @@
 // @include     http://www.hindustantimes.com/*
 // @include     http://*.ndtv.com/*
 // @include     http://*.anandabazar.com/*
+// @include     http://indianexpress.com/*
 // @run-at      document-start
-// @version     1.30
+// @version     1.40
 // @grant       none
 // @author      Piyush Soni (irrationalapps+blockerblocker@gmail.com)
 // @license     GNU LGPL v3 (https://www.gnu.org/licenses/lgpl-3.0.html)
@@ -27,7 +28,7 @@ mapPagesBlockerBlockers['indiatimes.com'] = [['detector', 'blocked.cms', 'opacit
 mapPagesBlockerBlockers['hindustantimes.com'] = [['BlockerScript', 'checkAdBlocker'], 2];
 mapPagesBlockerBlockers['ndtv.com'] = [['canRunAds'], 1];
 mapPagesBlockerBlockers['anandabazar.com'] = [['custom.js', 'checkAdBlock'], 2];
-
+mapPagesBlockerBlockers['indianexpress.com'] = [['ie_block_redirect.js'], 1];
 
 
 var arrDomain = domain.split('.');
