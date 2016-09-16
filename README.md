@@ -13,5 +13,5 @@ A userscript to block 'Anti-Adblockers' on several Indian (especially news) webs
 - Install the script by clicking the hositng website's Install button or this link : [Block-Adblocker-blocker](https://github.com/piyushsoni/Block-Adblocker-blocker/raw/master/Block-Adblocker-blocker.user.js)
 - Without a browser restart needed, you should be able to read the news on all of the currently supported websites (a page refresh might be required if already open)
 
-##Can you add <xyz> site? 
+##Can you add website [xyz]? 
 Yes, I can definitely try. Just create an issue [here](https://github.com/piyushsoni/Block-Adblocker-blocker/issues) on github, and I will see if I can. 
